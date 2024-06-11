@@ -1,0 +1,39 @@
+<nav class="nav">
+            <div class="nav-esquerda">
+                <div class="btn-menu-hamburguer">
+                    <button class="btn-hamburguer" onClick="AbreMenu()"><img src="/public/assets/images/nav/menu_hamburger.png" alt="Menu hambúrguer" class="img-hamburguer"></button>
+                </div>
+                <a href="#Home" class="a-logo"><img src="/public/assets/images/nav/FormulaBet.svg" alt="Logo da Formula Bet" class="nav-logo"></a>
+
+            </div>
+            <div class="nav-direita">
+                <a href="" class="btn-entrar">Entrar</a>
+                <a href="" class="btn-cadastrar">Cadastrar</a>
+            </div>
+        </nav> 
+        <div class="container">
+            <aside class="menu-lateral menuFechado">
+                <div class="links">
+                    <div class="link">
+                        <div class="div-img-link">
+                            <a href="#Apostar" class="apostar"><img src="/public/assets/images/menu/Roulette Chips.svg" alt="" class="img-link"></a>
+                        </div>
+                            <p class="etiqueta"><a href="" class="link-a">Apostar</a></p>
+                    </div>
+
+                    <div class="link">
+                        <div class="div-img-link">
+                            <a href="" class="pilotos"><img src="/public/assets/images/menu/race (1) 2.svg" alt="" class="img-link"></a>
+                        </div>
+                            <p class="etiqueta"><a href="" class="link-a">Pilotos</a></p>
+                    </div>
+
+                    <div class="link">
+                        <div class="div-img-link">
+                            <a href="" class="noticias"><img src="/public/assets/images/menu/Newspaper.svg" alt="" class="img-link"></a>
+                        </div>
+                            <p class="etiqueta"><a href="" class="link-a">Notícias</a></p>
+                    </div>
+                </div>
+            </aside>
+        </div>
