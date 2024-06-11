@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
 }
+
 .btn-menu-hamburguer{
    width: 50px;
    height: 50px;
@@ -32,6 +33,12 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.btn-hamburguer:hover{
+    background-color: var(--cinza-claro);
 }
 
 .img-hamburguer{
@@ -50,7 +57,14 @@
     text-decoration: none;
     color:white;
     padding: 10px;
+    transition: 0.4s;
+    border-radius: 10px;
 }
+
+.btn-entrar:hover{
+    background-color: var(--cinza-claro);
+}
+
 
 .btn-cadastrar{
     color: white;
@@ -59,6 +73,12 @@
     padding: 10px;
     border-radius: 13px;
     font-family: Konnect;
+    transition: 0.4s;
+}
+
+.btn-cadastrar:hover{
+    color: var(--vermelho-rosa);
+    background-color: #FFF;
 }
 
 .menu-lateral{
