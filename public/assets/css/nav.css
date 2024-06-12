@@ -1,3 +1,5 @@
+@import url("/public/assets/css/global.css");
+
 .nav{
     background-color: var(--cinza-escuro);
     display: flex;
