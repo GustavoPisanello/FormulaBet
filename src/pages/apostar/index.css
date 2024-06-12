@@ -132,3 +132,260 @@
     border: none;
     cursor: pointer;
 }
+
+.linha{
+    display: flex;
+}
+
+.seta{
+    transition: 0.4s;
+}
+
+.rotate{
+    transform: rotate(0deg);
+}
+
+.unrotate{
+    transform: rotate(90deg);
+}
+
+.escondido{
+    display: none !important;
+}
+
+.aparecido{
+    display: block;
+}
+
+.invisivel{
+    visibility: hidden;
+}
+
+.inalturavel{
+    height: 8%;
+}
+
+.alturavel{
+    height:60%;
+}
+
+.boletas{
+    bottom: 0;
+    right: 3px;
+    position: fixed;
+    width: 300px;
+    transition: 0.4s;
+}
+
+.boletim{
+    position: fixed;
+    width: 300px;
+    background-color: var(--cinza-escuro);
+    z-index: 0;
+}
+
+.cabecalho{
+    display: flex;
+    height: 10%;
+    background-color: var(--vermelho-rosa);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Konnect;
+    gap: 20px;
+    font-size: 23px;
+    border-radius: 20px 20px 0 0; 
+}
+
+.ativa-cabecalho{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.img-boletim{
+    width: 40px;
+    height: 40px;
+}
+
+.conteudo-boletim{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    row-gap: 20px
+}
+
+.apostas{
+    max-height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    overflow: auto;
+    border-bottom: #FFF solid 1px;
+}
+
+.aposta{
+    background-color: var(--cinza-claro);
+    width: 90%;
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cancelar-aposta{
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: #FFF solid 1px;
+    height: 100%;
+}
+
+.xis{
+    width: 20px;
+    height: 20px;
+}
+
+.conteudo-aposta{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-titulo-aposta{
+    color:white;
+    font-family: Konnect;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.titulo-aposta{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.subtitulo-aposta{
+    font-size: 10px;
+    font-weight: 100;
+    margin-left: 12px;
+}
+
+.valor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-valor-aposta{
+    display: flex;
+    color: white;
+    font-family: Konnect;
+    gap: 10px;
+}
+
+.div-valor-aposta p{
+    font-size: 20px;
+}
+
+#valor-aposta{
+    width: 60px;
+    background: none;
+    border-bottom:#FFF solid 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-family: Konnect;
+    text-align: center;
+    font-size: 15px;
+}
+
+#valor-aposta:focus{
+    outline: none;
+}
+
+.multiplicador p{
+    color: white;
+    font-family: Konnect;
+}
+
+.resumo{
+    width: 100%;
+    height: 100px;
+    border-bottom: #FFF 1px solid;
+    font-family: Konnect;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.div-titulo-resumo{
+    border-bottom: #FFF 1px solid;
+    width: fit-content;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.aposta-e-ganhos{
+    width: fit-content;
+    margin-left: 20px;
+    font-size: 10px; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.aposta-resumo{
+    font-weight: 100;
+}
+
+.possiveis-ganhos{
+    font-weight: 100;
+}
+
+.botoes{
+    display: flex;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.delete-aposta{
+    width:50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.div-lixeira{
+    width: 100%;
+    border-right: #FFF solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.confirmar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

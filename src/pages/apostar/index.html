@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,6 +51,7 @@
                     <h1 class="titulo">Apostar</h1>
                 </div>
 
+                <!--Uma aposta de corrida-->
                 <div class="corrida">
                     <div class="corrida-info">
                         <div class="titulo-corrida">
@@ -125,14 +126,150 @@
                             </div>
                         </div>
                         <div class="seta">
-                            <button class="mais-detalhes"><img src="/public/assets/images/apostar/seta.svg" alt="" class="img-seta"></button>
+                            <button class="mais-detalhes" onClick="MaisDetalhes()"><img src="/public/assets/images/apostar/seta.svg" alt="" class="img-seta"></button>
+                        </div>
+                    </div>  
+                    
+                    <div class="corredores-info escondido">
+                        <div class="corredores">
+                            <div class="coluna">
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                            </div>
+                            <div class="coluna">
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                            </div>
+                            <div class="coluna">
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                                <div class="corredor">
+                                    <div class="nome-corredor">Verstappen, Max</div>
+                                    <div class="odd">1.5</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!--Aqui acaba a corrida-->
+            </div> <!--Fecha a div conteúdo -->
+            
+            <div class="boletas inalturavel">
+                <button class="ativa-cabecalho" onClick="AbreBoletim()">
+                    <div class="cabecalho">
+                        <img src="/public/assets/images/apostar/escrita 1.svg" alt="Ícone de um boletim" class="img-boletim">
+                        <p class="titulo-boletim">Boletim</p>
+                    </div>
+                </button>
+                <div class="boletim escondido">          
+                    <div class="conteudo-boletim">
+                        <div class="apostas">
+                            <!--Inserir apostas aqui -->
+                            <div class="aposta">
+                                <div class="cancelar-aposta">
+                                    <img src="/public/assets/images/apostar/Xis.svg" alt="Cancelar aposta" class="xis">
+                                </div>
+                                <div class="conteudo-aposta">
+                                    <div class="div-titulo-aposta">
+                                        <h1 class="titulo-aposta">Verstappen, Max</h1>
+                                        <p class="subtitulo-aposta">Copa pistão - 150CC</p>
+                                    </div>
+                                    <div class="valor">
+                                        <div class="div-valor-aposta">
+                                            <p>R$</p>
+                                            <input type="number" id="valor-aposta">
+                                        </div>
+                                        <div class="multiplicador"><p>x 1.5</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="aposta">
+                                <div class="cancelar-aposta">
+                                    <img src="/public/assets/images/apostar/Xis.svg" alt="Cancelar aposta" class="xis">
+                                </div>
+                                <div class="conteudo-aposta">
+                                    <div class="div-titulo-aposta">
+                                        <h1 class="titulo-aposta">Verstappen, Max</h1>
+                                        <p class="subtitulo-aposta">Copa pistão - 150CC</p>
+                                    </div>
+                                    <div class="valor">
+                                        <div class="div-valor-aposta">
+                                            <p>R$</p>
+                                            <input type="number" id="valor-aposta">
+                                        </div>
+                                        <div class="multiplicador"><p>x 1.5</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                                            
+                        </div>
+                        <div class="resumo">
+                            <div class="div-titulo-resumo">
+                                <h1 class="titulo-resumo">Resumo</h1>
+                            </div>
+                            <div class="aposta-e-ganhos">
+                                <h1 class="aposta-resumo">Aposta: 50 R$</h1>
+                                <h1 class="possiveis-ganhos">Possíveis ganhos: 75 R$</h1>
+                            </div>
+                        </div>
+                        <div class="botoes">
+                            <button class="delete-aposta">
+                                <div class="div-lixeira">
+                                    <img src="/public/assets/images/apostar/lata-de-lixo 1.svg" alt="" class="lixeira">
+                                </div>
+                            </button>
+                            <button class="delete-aposta">
+                                <div class="confirmar">
+                                    <img src="/public/assets/images/apostar/Check.svg" alt="" class="lixeira">
+                                </div>
+                            </button>
+                        </div>
+                    </div>                    
+                </div>
             </div>
-        </div>
+        </div> <!--Fecha a div container-->
     </section>
     
+    <script src="/public/assets/scripts/corrida_mais-detalhes.js"></script>
     <script src="/public/assets/scripts/menu.js"></script>
+    <script src="/public/assets/scripts/boletim.js"></script>
 </body>
 </html>
