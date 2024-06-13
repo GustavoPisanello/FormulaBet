@@ -1,0 +1,18 @@
+@import url("/public/assets/css/global.css");
+@import url("/src/pages/cadastro/index.css");
+
+.btn-entrar{
+    font-family: Konnect;
+    border-radius: 10px;
+    background-color: #FFF;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-entrar:hover{
+    background-color: var(--cinza-fundo);
+    color: #FFF;
+}
