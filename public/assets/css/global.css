@@ -14,6 +14,9 @@ body{
     --cinza-escuro: #434141;
     --vermelho-rosa: #FF5252;
     --cinza-claro: #747474;
+    --ouro: #FFD700;
+    --prata: #C0C0C0;
+    --bronze: #CD7F32;
 }
 
 ::-webkit-scrollbar{

@@ -1,0 +1,191 @@
+@import url("/public/assets/css/nav.css");
+@import url("/public/assets/css/footer.css");
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.div-titulo{
+    width: 85%;
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titulo{
+    font-family: Konnect;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.titulo-search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-input{
+    background-color: var(--cinza-claro);
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    color: white;
+    font-family: Konnect;
+    text-align: center;
+}
+
+.search-input:focus{
+    outline: none;
+}
+
+.img-search{
+    width:30px;
+}
+
+.btn-search{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*Seção de pilotos */
+
+.fileira{
+    width: 100%;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    overflow: auto;
+}
+
+.conjunto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conjunto-pilotos{
+    width: 85%;
+}
+
+.group-piloto{
+    width: 28%;
+    background-color: var(--cinza-claro);
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    font-family: Konnect;
+    border: #FFF solid 1px;
+    box-shadow: #434343 2px 1px 1px;
+}
+
+.secao-dados{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    border-right: #FFF solid 1px;
+    justify-content: space-between;
+    row-gap: 20px;
+    padding-right: 10px;
+}
+
+.nome-time{
+    text-align: center;
+}
+
+.nome-piloto{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.nome-time{
+    color: var(--vermelho-rosa);
+    font-size: 12px;
+}
+
+.dados-piloto{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.dado{
+    color: #FFF;
+    font-size: 12px;
+}
+
+.secao-foto{
+    width: 57%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.foto-piloto{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.div-ultimas-corridas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.ultimas-corridas{
+    display: flex;
+    align-items: center;
+}
+
+.linha{
+    border-bottom: #FFF solid 1px;
+    width: 10px;
+}
+
+.corrida{
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.bronze{
+    background-color: var(--bronze);
+    color:white;
+}
+
+.prata{
+    background-color: var(--prata);
+    color:white;
+}
+
+.ouro{
+    background-color: var(--ouro);
+    color:white;
+}
