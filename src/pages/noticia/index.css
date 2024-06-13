@@ -1,0 +1,68 @@
+@import url("/public/assets/css/nav.css");
+@import url("/public/assets/css/footer.css");
+@import url("/public/assets/css/carousel.css");
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.div-seta{
+    width: 85%;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.noticia{
+    max-height: 560px;
+    width: 85%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.corpo-noticia{
+    font-family: Konnect;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.titulo-subtitulo{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.subtitulo{
+    color: var(--vermelho-rosa);
+    font-weight: bold;
+}
+
+.texto{
+    display: flex;
+    text-align: justify;
+    gap: 70px;
+    line-height: 24px;
+}
+
+.coluna{
+    width: 50%;
+}
+
