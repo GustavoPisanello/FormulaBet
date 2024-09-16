@@ -1,5 +1,6 @@
-import logo from '/src/assets/images/FormulaBet.svg'
+import logo from '/src/assets/images/header/FormulaBet.svg'
 import HamburgerMenuButton from '../hamburger-menu-button/HamburgerMenuButton'
+import Redlink from './RedLink'
 
 
 export default function Header(){
@@ -12,9 +13,9 @@ export default function Header(){
                         <a><img className="w-full" src={logo} alt="Logo da FormulaBet" /></a>
                     </div>
                 </div>
-                <div className="xl:flex text-[#FFF] xl:gap-x-20">
-                    <a className='hover:bg-primary_gray px-4 py-2 rounded-lg cursor-pointer transition-all duration-300'>Entrar</a>
-                    <a className='px-4 py-2 bg-red_pink rounded-lg cursor-pointer'>Cadastrar</a>
+                <div className="xl:flex text-[#FFF] xl:gap-x-16">
+                    <a className='hover:bg-primary_gray px-6 py-2 rounded-lg cursor-pointer transition-all duration-300'>Entrar</a>
+                    <Redlink text="Cadastrar"/>
                 </div>    
             </div>
         </>

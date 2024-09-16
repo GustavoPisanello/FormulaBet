@@ -9,9 +9,12 @@ export default {
     },
 
     colors: {
+      white: '#FFF',
+      black: '#000',
+
       primary_gray: '#555555',
       header_gray: '#434141',
-      red_pink: '#FF5252'
+      red_pink: '#FF5252',
     }
   },
   plugins: [],
