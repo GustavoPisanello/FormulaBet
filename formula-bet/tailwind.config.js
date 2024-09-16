@@ -15,6 +15,7 @@ export default {
       primary_gray: '#555555',
       header_gray: '#434141',
       red_pink: '#FF5252',
+      light_gray: '#747474'
     }
   },
   plugins: [],

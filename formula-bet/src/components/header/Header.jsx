@@ -1,6 +1,7 @@
 import logo from '/src/assets/images/header/FormulaBet.svg'
 import HamburgerMenuButton from '../hamburger-menu-button/HamburgerMenuButton'
 import Redlink from './RedLink'
+import {Link} from 'react-router-dom'
 
 
 export default function Header(){
@@ -10,7 +11,7 @@ export default function Header(){
                 <div className="xl:flex xl:items-center gap-x-8">
                     <HamburgerMenuButton/>
                     <div className="w-64">
-                        <a><img className="w-full" src={logo} alt="Logo da FormulaBet" /></a>
+                        <Link to="/"><img className="w-full" src={logo} alt="Logo da FormulaBet" /></Link>
                     </div>
                 </div>
                 <div className="xl:flex text-[#FFF] xl:gap-x-16">

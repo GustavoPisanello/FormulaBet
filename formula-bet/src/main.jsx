@@ -4,13 +4,15 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
+import Bet from './pages/Bet.jsx'
 
 const router = createBrowserRouter([
   {
     element: <App />,
     path: "/",
     children: [
-      {index: true, element: <Home />}
+      {index: true, element: <Home />},
+      {path: "/Race", element: <Bet/>}
     ]
   }
 ])

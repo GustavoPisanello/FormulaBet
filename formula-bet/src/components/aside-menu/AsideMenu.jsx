@@ -9,7 +9,7 @@ export default function AsideMenu(){
         <>
         <div className={`flex h-full w-[8%] bg-header_gray justify-center border-r border-solid border-[#FFF]`}>
             <div className="flex flex-col h-full justify-between py-20">
-                <MenuItem tag="Apostar" img={RouletteChips} />
+                <MenuItem tag="Apostar" img={RouletteChips} link="/Race"/>
                 <MenuItem tag="Pilotos" img={Pilot}/>
                 <MenuItem tag="Notícias" img={Newspaper}/>
             </div>  

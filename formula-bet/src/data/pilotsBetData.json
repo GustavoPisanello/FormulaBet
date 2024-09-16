@@ -1,0 +1,50 @@
+[
+    {
+        "pilotName": "Daniel Abt",
+        "odd": 1.5
+    },
+    {
+        "pilotName": "Jaime Alguersuari",
+        "odd": 2.0
+    },
+    {
+        "pilotName": "Marco Andretti",
+        "odd": 1.75
+    },
+    {
+        "pilotName": "Nathanaël Berthon",
+        "odd": 2.25
+    },
+    {
+        "pilotName": "Edoardo Mortara",
+        "odd": 1.0
+    },
+    {
+        "pilotName": "Sam Bird",
+        "odd": 3.0
+    },
+    {
+        "pilotName": "Tom Blomqvist",
+        "odd": 3.35
+    },
+    {
+        "pilotName": "Matthew Brabham",
+        "odd": 1.75
+    },
+    {
+        "pilotName": "Sébastien Buemi",
+        "odd": 1.0
+    },
+    {
+        "pilotName": "James Calado",
+        "odd": 2.55
+    },
+    {
+        "pilotName": "Adam Carroll",
+        "odd": 2.85
+    },
+    {
+        "pilotName": "Nick Cassidy",
+        "odd": 3.0
+    }
+]
