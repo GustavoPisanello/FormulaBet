@@ -10,12 +10,12 @@ function App() {
 
   return (
     <>
-        <div className="flex flex-col w-screen h-screen">
+        <div className="flex flex-col w-screen h-screen relative">
             <Header/>
-            <div className="flex h-full"> 
+            <div className="flex h-full w-screen mt-[96px]"> 
                 <AsideMenu/>
-                <div className={`w-full bg-primary_gray max-h-[${maxContainerSize}px] overflow-y-auto`}>
-                  <Outlet/>
+                <div className={`w-[92%] ml-[8%] flex justify-center bg-primary_gray overflow-y-auto`}>         
+                    <Outlet/>            
                 </div>
             </div>
         </div>

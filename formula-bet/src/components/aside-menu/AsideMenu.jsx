@@ -7,8 +7,8 @@ export default function AsideMenu(){
 
     return(
         <>
-        <div className={`flex h-full w-[8%] bg-header_gray justify-center border-r border-solid border-[#FFF]`}>
-            <div className="flex flex-col h-full justify-between py-20">
+        <div className={`flex h-full w-[8%] bg-header_gray justify-center border-r border-solid border-[#FFF] fixed z-10`}>
+            <div className="flex flex-col h-full justify-between pb-44 pt-24">
                 <MenuItem tag="Apostar" img={RouletteChips} link="/Race"/>
                 <MenuItem tag="Pilotos" img={Pilot}/>
                 <MenuItem tag="Notícias" img={Newspaper}/>

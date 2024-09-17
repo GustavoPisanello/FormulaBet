@@ -1,0 +1,23 @@
+[
+    {
+        "raceName": "Copa pistão 150CC",
+        "raceDate": "16 de Setembro",
+        "raceTime": "12:30"
+    },
+    {
+        "raceName": "Copa pistão 200CC",
+        "raceDate": "18 de Outubro",
+        "raceTime": "16:40"
+    },
+    {
+        "raceName": "Copa das Américas",
+        "raceDate": "20 de Maio",
+        "raceTime": "21:00"
+    },
+    {
+        "raceName": "Copa do Mundo",
+        "raceDate": "30 de Dezembro",
+        "raceTime": "10:00"
+    }
+
+]

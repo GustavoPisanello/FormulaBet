@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 export default function Header(){
     return(
         <>
-            <div className="xl:flex xl:justify-between xl:bg-header_gray h-24 xl:items-center xl:px-28 border-b-[1px] border-solid border-[#FFF]">              
+            <div className="w-screen xl:flex xl:justify-between xl:bg-header_gray h-24 xl:items-center xl:px-28 border-b-[1px] border-solid border-[#FFF] fixed z-10">              
                 <div className="xl:flex xl:items-center gap-x-8">
                     <HamburgerMenuButton/>
                     <div className="w-64">
