@@ -9,13 +9,18 @@ function App() {
     <>
         <div className="flex flex-col w-screen h-screen relative">
             <Header/>
-            <div className="flex h-full w-screen mt-[96px]"> 
+            <div className="flex" style={{maxHeight: "calc(100vh - 96px)"}}>
                 <AsideMenu/>
-                <div className={`w-[92%] ml-[8%] flex justify-center bg-primary_gray overflow-y-auto`}>         
-                    <Outlet/>            
+                <div className={`w-full flex justify-center bg-primary_gray overflow-y-auto `}>
+                  <section className="w-full flex relative justify-center" >
+                    <div className="w-[86%] mt-20 flex flex-col gap-y-8 max-w-[1400px]">         
+                      <Outlet/>  
+                    </div>
+                  </section>          
                 </div>
+              </div>
             </div>
-        </div>
+       
         
     </>
   )

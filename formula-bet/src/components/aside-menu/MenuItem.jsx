@@ -1,13 +1,15 @@
 import {Link} from 'react-router-dom'
 
-export default function MenuItem({tag, img, link}){
+export default function MenuItem({data}){
     return(
-        <>
-        <div className="w-full flex justify-center gap-x-5 text-[#FFF] font-[Konnect]">
-            <div className="w-[60px]">
-               <Link className="flex items-center" to={link}><img src={img} alt="" /><p className='hidden'>{tag}</p></Link>
-            </div>
-        </div>
+        <>   
+            {
+            data.map(linkData => (
+                <div className="w-[60px]">
+                    <Link className="flex items-center w-full" to={linkData["link"]}><img src={linkData["img"]} alt="" /><p className='hidden'>{linkData["tag"]}</p></Link>             
+                </div>
+            ))}
+            
         </>
     )
 }

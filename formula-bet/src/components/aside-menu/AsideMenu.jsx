@@ -1,17 +1,15 @@
 import MenuItem from "./MenuItem";
-import RouletteChips from '/src/assets/images/asideMenu/RouletteChips.png'
-import Pilot from '/src/assets/images/asideMenu/Pilot.png'
-import Newspaper from '/src/assets/images/asideMenu/Newspaper.png'
+import MenuLinkData from "/src/data/menulinkData.json"
 
 export default function AsideMenu(){
 
+    const tag_link = MenuLinkData
+
     return(
         <>
-        <div className={`flex h-full w-[8%] bg-header_gray justify-center border-r border-solid border-[#FFF] fixed z-10`}>
-            <div className="flex flex-col h-full justify-between pb-44 pt-24">
-                <MenuItem tag="Apostar" img={RouletteChips} link="/Race"/>
-                <MenuItem tag="Pilotos" img={Pilot}/>
-                <MenuItem tag="Notícias" img={Newspaper}/>
+        <div className={`flex w-[8%] bg-header_gray justify-center border-r border-solid border-[#FFF] z-10`} style={{height: 'calc(100vh - 96px)'}}>
+            <div className="flex flex-col h-full justify-between py-20">
+                <MenuItem data={tag_link}/>
             </div>  
         </div>
         </>
