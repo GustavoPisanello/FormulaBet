@@ -1,0 +1,8 @@
+.div-toggle {
+  transition: width 0.3s; /* Adiciona uma transição suave para a largura */
+  width: 8%; /* Largura padrão */
+}
+
+.div-toggle.expanded {
+  width: 20%; /* Largura quando expandida */
+}

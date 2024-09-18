@@ -6,7 +6,7 @@ export default function Bet({pilotName, odd}){
                     <p className="pl-4 text-xs text-left">{pilotName}</p>
                 </div>
                 <div className="w-1/6 py-1 text-xs bg-red_pink rounded-xl">
-                    <p>{odd}</p>
+                    <p >{odd}</p>
                 </div>
             </button>
         </>

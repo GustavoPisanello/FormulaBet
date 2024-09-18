@@ -4,10 +4,7 @@ import AsideMenu from './components/aside-menu/AsideMenu'
 import {Outlet} from 'react-router-dom'
 
 function App() {
-    const windowSize = screen.height
-
-    const maxContainerSize = windowSize - 96
-
+        
   return (
     <>
         <div className="flex flex-col w-screen h-screen relative">
