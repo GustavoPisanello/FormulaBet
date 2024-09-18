@@ -1,50 +1,110 @@
 [
     {
         "pilotName": "Daniel Abt",
-        "odd": 1.5
+        "odd": 1.5,
+        "country": "Alemanha",
+        "fastestLap": "7",
+        "points": "390",
+        "participations": "69",
+        "team": "Audi Sport ABT Schaeffler"
     },
     {
         "pilotName": "Jaime Alguersuari",
-        "odd": 2.0
+        "odd": 2.0,
+        "country": "Espanha",
+        "fastestLap": "1",
+        "points": "30",
+        "participations": "9",
+        "team": "Toro Rosso"
     },
     {
         "pilotName": "Marco Andretti",
-        "odd": 1.75
+        "odd": 1.75,
+        "country": "Estados Unidos",
+        "fastestLap": "0",
+        "points": "0",
+        "participations": "1",
+        "team": "Andretti Formula E"
     },
     {
         "pilotName": "Nathanaël Berthon",
-        "odd": 2.25
+        "odd": 2.25,
+        "country": "França",
+        "fastestLap": "0",
+        "points": "4",
+        "participations": "3",
+        "team": "Racing Engineering"
     },
     {
         "pilotName": "Edoardo Mortara",
-        "odd": 1.0
+        "odd": 1.0,
+        "country": "Suíça", 
+        "fastestLap": "0",
+        "points": "122",
+        "participations": "35",
+        "team": "Mahindra"
     },
     {
         "pilotName": "Sam Bird",
-        "odd": 3.0
+        "odd": 3.0,
+        "country": "Reino Unido", 
+        "fastestLap": "6",
+        "points": "628",
+        "participations": "71",
+        "team": "McLaren Formula E Team"
     },
     {
         "pilotName": "Tom Blomqvist",
-        "odd": 3.35
+        "odd": 3.35,
+        "country": "Reino Unido",
+        "fastestLap": "0",
+        "points": "4",
+        "participations": "10",
+        "team": "Andretti Formula E"
     },
     {
         "pilotName": "Matthew Brabham",
-        "odd": 1.75
+        "odd": 1.75,
+        "country": "Estados Unidos",
+        "fastestLap": "0",
+        "points": "0",
+        "participations": "2",
+        "team": "PIRTEK Team Murray"
     },
     {
         "pilotName": "Sébastien Buemi",
-        "odd": 1.0
+        "odd": 1.0,
+        "country": "Suíça",
+        "fastestLap": "7",
+        "points": "783",
+        "participations": "69",
+        "team": "DAMS"
     },
     {
         "pilotName": "James Calado",
-        "odd": 2.55
+        "odd": 2.55,
+        "country": "Reino Unido",
+        "fastestLap": "0",
+        "points": "10",
+        "participations": "9",
+        "team": "Panasonic Jaguar Racing"
     },
     {
         "pilotName": "Adam Carroll",
-        "odd": 2.85
+        "odd": 2.85,
+        "country": "Reino Unido",
+        "fastestLap": "0",
+        "points": "5",
+        "participations": "12",
+        "team": "A1 Team Irlanda"
     },
     {
         "pilotName": "Nick Cassidy",
-        "odd": 3.0
+        "odd": 3.0,
+        "country": "Nova Zelândia",
+        "fastestLap": "0",
+        "points": "0",
+        "participations": "2",
+        "team": "Envision Racing"
     }
 ]
