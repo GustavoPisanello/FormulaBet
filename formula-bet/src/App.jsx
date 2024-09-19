@@ -4,15 +4,22 @@ import AsideMenu from './components/aside-menu/AsideMenu'
 import {Outlet} from 'react-router-dom'
 import Footer from './components/footer/Footer'
 import { useState } from 'react'
+import HamburgerMenuButton from './components/hamburger-menu-button/HamburgerMenuButton'
 
 function App() {
         
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(prev => !prev);
+  }
 
   return (
     <>
         <div className="flex flex-col w-screen h-screen">
-            <Header/>
+            <Header>
+              <HamburgerMenuButton toggleMenu={toggleMenu} isOpen={isOpen}/>
+            </Header>
             <div className="flex" style={{maxHeight: "calc(100vh - 96px)"}}>
                 <AsideMenu open={isOpen}/>
                 <div className={`w-full flex justify-center bg-primary_gray overflow-y-auto `}>

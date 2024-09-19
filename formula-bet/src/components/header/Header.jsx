@@ -4,12 +4,12 @@ import Redlink from './RedLink'
 import {Link} from 'react-router-dom'
 
 
-export default function Header(){
+export default function Header({children}){
     return(
         <>
             <div className="w-screen xl:flex xl:justify-between xl:bg-header_gray h-24 xl:items-center xl:px-28 border-b-[1px] border-solid border-[#FFF]">              
                 <div className="xl:flex xl:items-center gap-x-8">
-                    <HamburgerMenuButton/>
+                    {children}
                     <div className="w-64">
                         <Link to="/"><img className="w-full" src={logo} alt="Logo da FormulaBet" /></Link>
                     </div>

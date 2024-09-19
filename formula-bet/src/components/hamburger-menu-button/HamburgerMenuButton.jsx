@@ -1,19 +1,17 @@
 import {useRef, useEffect} from "react";
 
-export default function HamburgerMenuButton(){
+export default function HamburgerMenuButton({toggleMenu, isOpen}){
 
     const buttonRef = useRef(null);
 
     useEffect(() => { 
         const button = buttonRef.current;
 
-        const openMenu = () =>{
+        const openMenu = () => {
+            button.setAttribute("aria-expanded", !isOpen);
 
-            const isOpened = button.getAttribute("aria-expanded") === "true";
-            button.setAttribute("aria-expanded", !isOpened);
-      
-             // Chama a função passada via props para alternar a div
-        }
+            toggleMenu(); // Chama a função passada via props para alternar a div
+          };
 
         if(button){
             button.addEventListener("click", openMenu);
@@ -24,7 +22,7 @@ export default function HamburgerMenuButton(){
                 button.removeEventListener('click', openMenu);
             }
         }
-    }, [])
+    }, [toggleMenu])
 
     return (
         <>
