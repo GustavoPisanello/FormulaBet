@@ -15,6 +15,6 @@
         "id": 3,
         "tag": "Notícias",
         "img": "/src/assets/images/asideMenu/Newspaper.png",
-        "link": "/"
+        "link": "/News"
     }
 ]

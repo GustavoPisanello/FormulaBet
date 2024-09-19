@@ -5,7 +5,7 @@ export default function PilotsInfo({data}){
         <>
             { 
             data.map(pilot => (
-                <Link className="flex min-w-80 py-3 h-72 border-solid border-white border-[1px] rounded-2xl shadow-lg font-[Konnect] text-white">
+                <Link className="flex min-w-80 py-3 h-72 border-solid border-white border-[1px] rounded-2xl shadow-lg font-[Konnect] text-white bg-light_gray">
                     <div className="w-[45%] flex flex-col pt-3 pb-14 justify-between border-r-[1px] border-white">
                         <div className="text-center">
                             <p className="text-sm">{pilot["pilotName"]}</p>

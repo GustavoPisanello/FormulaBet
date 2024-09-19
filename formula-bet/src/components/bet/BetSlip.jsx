@@ -40,15 +40,15 @@ export default function BetSlip(){
 
     return (
         <>
-            <div className="fixed bottom-0 right-0 flex flex-col w-80 z-10  text-white transition-all duration-300">
-                <button className="flex gap-4 justify-center w-full items-center py-3 bg-red_pink rounded-t-xl" ref={openSlipButtonRef}>
+            <div className="fixed bottom-0 right-0 flex flex-col w-80 z-10  text-white">
+                <button className="flex gap-4 justify-center w-full items-center py-3 bg-red_pink rounded-t-xl " ref={openSlipButtonRef}>
                     <div className="w-8">
                         <img className="w-full" src="/src/assets/images/bet/boletim.png" alt="Boletim" />
                     </div>
                     <p className="text-xl">Boletim</p>
                 </button>
 
-                <div className="h-[50vh] bg-header_gray flex-col hidden"ref={betSlipRef}>
+                <div className="h-[50vh] bg-header_gray flex-col hidden transition-all duration-300"ref={betSlipRef}>
                     <div className="h-[60%] max-h-[320px] overflow-y-auto border-solid border-b-[1px] flex flex-col items-center py-8 gap-y-8">
                         <BetItem/>
                     </div>
