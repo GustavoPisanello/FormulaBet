@@ -1,5 +1,5 @@
 import logo from '/src/assets/images/header/FormulaBet.svg'
-import HamburgerMenuButton from '../hamburger-menu-button/HamburgerMenuButton'
+import HamburgerMenuButton from '/src/components/hamburger-menu-button/HamburgerMenuButton'
 import Redlink from './RedLink'
 import {Link} from 'react-router-dom'
 

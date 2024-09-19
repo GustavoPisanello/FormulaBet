@@ -1,11 +1,4 @@
 export default function PilotsInfo({data}){
-
-    const pilotsInfo = data.map(pilot => ([
-        {
-            "country": pilot["country"]
-        }
-    ]))
-
     return(
         <>
             { 
