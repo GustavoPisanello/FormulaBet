@@ -14,7 +14,7 @@ export default function Home(){
                 <div className="w-1/2 flex justify-center items-center">
                     <div className="flex flex-col w-1/2 gap-y-10 items-end text-[#FFF]">
                         <div className="text-right">
-                            <p className="text-lg text-[Konnect]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi itaque eius perferendis unde minima accusamus sit amet enim sed aut nostrum mollitia officia ut, in, voluptas a, veritatis sequi molestias!</p>
+                            <p className="text-lg font-[Konnect]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi itaque eius perferendis unde minima accusamus sit amet enim sed aut nostrum mollitia officia ut, in, voluptas a, veritatis sequi molestias!</p>
                         </div>
                         <div>
                             <Redlink text="Apostar"/>
