@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 function App() {
         
-  const [isOpen, setIsOpen] = useState()
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
