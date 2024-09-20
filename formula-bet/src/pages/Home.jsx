@@ -4,7 +4,7 @@ import Redlink from "../components/header/RedLink";
 export default function Home(){
     return(
         <>
-            <section className="w-full h-full flex">
+            <section className="w-full flex" style={{height: "calc(100vh - 258px)"}}>
                 <div className="w-1/2 flex items-center justify-center h-full">
                     <div className="text-7xl text-[#FFF] font-[RealityHyper]">
                         <h1>Formula</h1>

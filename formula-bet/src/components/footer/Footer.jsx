@@ -24,7 +24,7 @@ export default function Footer(){
 
     return (
         <>
-            <div className="flex w-full bg-header_gray justify-between  items-center px-12 border-solid border-t-[1px] border-white py-4 text-white">
+            <div className="flex w-full z-20 bg-header_gray justify-between  items-center px-12 border-solid border-t-[1px] border-white py-4 text-white">
                 <div>
                     <div className="w-64">
                         <Link to="/"><img src={Logo} alt="" className="w-full" /></Link>
