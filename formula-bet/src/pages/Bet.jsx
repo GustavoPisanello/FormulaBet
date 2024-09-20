@@ -1,16 +1,28 @@
-import BetSlip from '../components/bet/BetSlip'
-import Race from '/src/components/bet/Race'
-import raceData from '/src/data/raceData'
+import React, { useState } from 'react';
+import BetSlip from '../components/bet/BetSlip';
+import Race from '/src/components/bet/Race';
+import raceData from '/src/data/raceData';
 
-export default function Bet(){
+export default function Bet() {
+  const races = raceData;
 
-    const races = raceData
+  const [bets, setBets] = useState([]);
 
-    return (
-        <>   
-            <h1 className="font-[Konnect] text-white text-5xl">Apostar</h1>
-            <Race data ={races}/>       
-            <BetSlip/>
-        </>
-    )
+
+  const handleAddBet = (pilotName, odd, raceName) => {
+    const newBet = { pilotName, odd, raceName };
+    setBets((prevBets) => [...prevBets, newBet]); 
+  };
+
+  const removeBet = (indexToRemove) => {
+    setBets((prevBets) => prevBets.filter((_, index) => index !== indexToRemove));
+  };
+  
+  return (
+    <>
+      <h1 className="font-[Konnect] text-white text-5xl">Apostar</h1>
+      <Race data={races} handleAddBet={handleAddBet} /> 
+      <BetSlip bets={bets} removeBet={removeBet} />
+    </>
+  );
 }

@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Bet from './pages/Bet.jsx'
 import Pilots from './pages/Pilots.jsx'
-import News from './pages/NewsDisplay.jsx'
+import News from './pages/News.jsx'
 import SingleNews from './pages/SingleNews.jsx'
 
 const router = createBrowserRouter([

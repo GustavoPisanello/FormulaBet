@@ -10,7 +10,7 @@ export default function HamburgerMenuButton({toggleMenu, isOpen}){
         const openMenu = () => {
             button.setAttribute("aria-expanded", !isOpen);
 
-            toggleMenu(); // Chama a função passada via props para alternar a div
+            toggleMenu(); 
           };
 
         if(button){

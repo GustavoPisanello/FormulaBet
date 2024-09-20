@@ -1,16 +1,20 @@
-import Bet from '/src/components/bet/Bet'
-
-export default function BetGroup({data}){
-
+export default function BetGroup({ data, handleAddBet, raceName }) {
     return (
-        <>
-         <div className=" grid grid-cols-3 gap-y-3 gap-x-4 flex-wrap">
-            {
-                data.map(pilot => (
-                    <Bet pilotName={pilot["pilotName"]} odd={pilot["odd"]}/>
-                ))  
-            }
-        </div>       
-        </>
-    )
-}
+      <>
+        {data.map((pilot) => (
+          <button
+            key={pilot.pilotName}
+            onClick={() => handleAddBet(pilot.pilotName, pilot.odd, raceName)} // Chamando a função handleAddBet com os dados da aposta
+            className="flex w-64 gap-x-2 items-center"
+          >
+            <div className="w-8/12 py-1 bg-red_pink rounded-xl ">
+              <p className="pl-4 text-xs text-left">{pilot.pilotName}</p>
+            </div>
+            <div className="w-1/6 py-1 text-xs bg-red_pink rounded-xl">
+              <p>{pilot.odd}</p>
+            </div>
+          </button>
+        ))}
+      </>
+    );
+  }
