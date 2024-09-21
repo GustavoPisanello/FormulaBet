@@ -7,8 +7,8 @@ export default function AsideMenu({open}){
 
     return(
         <>
-        <div className={`flex ${open? "w-[16%]": "w-[8%]"} bg-header_gray justify-center border-r border-solid border-[#FFF] transition-all duration-300`} style={{height: 'calc(100vh - 96px)'}}>
-            <div className="flex flex-col h-full justify-between py-20">
+        <div className={`fixed z-10 md:static h-20 md:h-full flex ${open? "w-full" : "w-0"} ${open? "md:w-[20%]": "md:w-[8%]"} ${open? "md:min-w-[190px]" : "md:min-w-[115px]"} bg-header_gray justify-center border-b border-t md:border-t-0 md:border-r border-solid border-[#FFF] transition-all duration-300`}>
+            <div className="flex w-full gap-8 md:flex-col h-full justify-between md:py-20">
                 <MenuItem data={tag_link} open={open}/>
             </div>  
         </div>

@@ -21,12 +21,12 @@ export default function SingleNews(){
 
     return(
         <>
-        <div className="mt-[-30px] w-fit">
+        <div className="mt-[-30px] w-full pt-6 md:pt-0 md:w-fit">
             <Link to="/News"><img src={arrow} alt="" /></Link>
         </div>
         <div className='flex flex-col text-white font-[Konnect] gap-8 items-center'>    
-            <div className="border border-white w-full">
-                <div className="w-full h-[500px]">
+            <div className="border border-white w-80 md:w-full">
+                <div className="w-full md:h-[500px]">
                     <img className="w-full h-full object-cover" src={news.img1} alt="" />
                 </div>
             </div>

@@ -70,7 +70,7 @@ export default function BetSlip({ bets = [], removeBet }) {
 
     return (
         <>
-            <div className="fixed bottom-0 right-0 flex flex-col w-80 z-10 text-white">
+            <div className="w-full fixed bottom-0 right-0 flex flex-col sm:w-80 z-10 text-white">
                 <button className="flex gap-4 justify-center w-full items-center py-3 bg-red_pink rounded-t-xl" ref={openSlipButtonRef}>
                     <div className="w-8">
                         <img className="w-full" src="/src/assets/images/bet/boletim.png" alt="Boletim" />
@@ -78,7 +78,7 @@ export default function BetSlip({ bets = [], removeBet }) {
                     <p className="text-xl">Boletim</p>
                 </button>
 
-                <div className="h-[50vh] bg-header_gray flex-col hidden transition-all duration-300" ref={betSlipRef}>
+                <div className="sm:h-[28rem] bg-header_gray flex-col hidden transition-all duration-300" ref={betSlipRef}>
                     <div className="h-[60%] max-h-[320px] overflow-y-auto border-solid border-b-[1px] flex flex-col items-center py-8 gap-y-8">
                         {bets.length > 0 ? (
                             bets.map((bet, index) => (
@@ -105,7 +105,7 @@ export default function BetSlip({ bets = [], removeBet }) {
                             <p className="text-sm">Possíveis ganhos: R$ {potentialGains.toFixed(2)}</p>
                         </div>
                     </div>
-                    <div className="flex h-[10%]">
+                    <div className="flex h-[10%] py-2 md:py-0">
                         <button className="w-1/2 flex justify-center items-center border-solid border-r-[1px]" onClick={clearBets}>
                             <div className="w-5">
                                 <img className="w-full" src={Lixo} alt="" />
