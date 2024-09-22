@@ -25,22 +25,22 @@ export default function SingleNews(){
             <Link to="/News"><img src={arrow} alt="" /></Link>
         </div>
         <div className='flex flex-col text-white font-[Konnect] gap-8 items-center'>    
-            <div className="border border-white w-80 md:w-full">
-                <div className="w-full md:h-[500px]">
+            <div className="border border-white w-[92%] md:w-full">
+                <div className="w-full h-44 sm:h-fit md:h-[500px]">
                     <img className="w-full h-full object-cover" src={news.img1} alt="" />
                 </div>
             </div>
-            <div className='text-center'>
-                <h1 className='text-2xl font-bold'>{news.title}</h1>
-                <p className='text-md text-red_pink'>{news.subtitle}</p>
+            <div className='text-center w-[92%] flex flex-col gap-y-2 md:gap-y-0'>
+                <h1 className='text:lg sm:text-xl md:text-2xl font-bold'>{news.title}</h1>
+                <p className='text-xs sm:text-base md:text-lg text-red_pink'>{news.subtitle}</p>
             </div>
-            <div className='w-full flex'>
-                <div className='w-1/2 p-6'>
+            <div className='w-full flex flex-col sm:flex-row'>
+                <div className='sm:w-1/2 p-6'>
                     <div className='flex flex-col gap-y-6'>
                         {text1f}
                     </div>
                 </div>
-                <div className='w-1/2 p-6'>
+                <div className='sm:w-1/2 p-6'>
                     <div className='flex flex-col gap-y-6'>
                         {text2f}
                     </div>

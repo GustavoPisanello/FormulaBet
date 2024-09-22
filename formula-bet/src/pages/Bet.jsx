@@ -20,7 +20,7 @@ export default function Bet() {
   
   return (
     <>
-      <h1 className="font-[Konnect] text-white text-5xl flex flex-col justify-center">Apostar</h1>
+      <h1 className="font-[Konnect] md:w-full text-white text-5xl flex flex-col justify-center">Apostar</h1>
       <Race data={races} handleAddBet={handleAddBet} /> 
       <BetSlip bets={bets} removeBet={removeBet} />
     </>
