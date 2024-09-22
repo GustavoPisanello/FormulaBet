@@ -24,7 +24,7 @@ function App() {
                 <AsideMenu open={isOpen}/>
                 <div className={`w-full flex justify-center bg-primary_gray overflow-y-auto`}>
                   <section className="w-full flex relative justify-center" >
-                    <div className="xl:w-[86%] w-[93%] h-fit md:py-20 py-10 flex items-center md:items-center flex-col gap-y-8 max-w-[1400px]">         
+                    <div className="xl:w-[86%] w-[93%] h-fit md:py-20 py-10 flex items-center lg:items-start flex-col gap-y-8 max-w-[1400px]">         
                       <Outlet/>  
                     </div>
                   </section>          

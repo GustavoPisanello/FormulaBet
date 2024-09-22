@@ -17,8 +17,6 @@ export default function SingleNews(){
         <p className='text-justify' key={index}>{str}</p>
       ));
     
-    
-
     return(
         <>
         <div className="mt-[-30px] w-full pt-6 md:pt-0 md:w-fit">
