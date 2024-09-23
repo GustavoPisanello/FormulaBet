@@ -14,8 +14,8 @@ export default function Header({children}){
                     </div>
                 </div>
                 <div className="md:flex text-[#FFF] gap-x-4 xl:gap-x-16 hidden">
-                    <a className='hover:bg-primary_gray px-6 py-2 rounded-lg cursor-pointer transition-all duration-300'>Entrar</a>
-                    <Redlink text="Cadastrar"/>
+                    <Link to="/authenticate/Login" className='hover:bg-primary_gray px-6 py-2 rounded-lg cursor-pointer transition-all duration-300'>Entrar</Link>
+                    <Redlink text="Cadastrar" link={"/authenticate/Register"}/>
                 </div>    
             </div>
         </>

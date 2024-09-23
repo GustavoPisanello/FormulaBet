@@ -8,6 +8,9 @@ import Bet from './pages/Bet.jsx'
 import Pilots from './pages/Pilots.jsx'
 import News from './pages/News.jsx'
 import SingleNews from './pages/SingleNews.jsx'
+import Authenticate from './Authenticate.jsx'
+import Login from './pages/Login.jsx'
+import Register from './pages/Register.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +22,14 @@ const router = createBrowserRouter([
       {path: "/Pilots", element: <Pilots/>},
       {path: "/News", element: <News/>},
       {path: "/News/:id", element: <SingleNews/>}
+    ]
+  },
+  {
+    element: <Authenticate />,
+    path: "/authenticate",
+    children: [
+      {path: "/authenticate/Login", element: <Login />},
+      {path: "/authenticate/Register", element: <Register/>}
     ]
   }
 ])
