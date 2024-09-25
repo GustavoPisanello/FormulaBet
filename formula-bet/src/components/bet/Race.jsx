@@ -1,7 +1,7 @@
 import Flag from '/src/assets/images/bet/FinishFlag.svg'
 import BetGroup from '/src/components/bet/BetGroup'
 import Seta from '/src/assets/images/bet/seta.svg'
-import pilotsBetData from '/src/data/pilotsBetData.json'
+import pilotsBetData from '../../data/pilotsBetData.json'
 
 export default function Race({data, handleAddBet}){
 

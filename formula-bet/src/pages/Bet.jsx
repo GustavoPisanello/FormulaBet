@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BetSlip from '../components/bet/BetSlip';
 import Race from '/src/components/bet/Race';
-import raceData from '/src/data/raceData';
+import raceData from '../data/raceData';
 
 export default function Bet() {
   const races = raceData;

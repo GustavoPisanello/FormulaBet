@@ -1,6 +1,6 @@
 import TitleSearch from '../components/global/TitleSearch';
 import PilotsInfo from '../components/pilots/PilotsInfo';
-import PilotsData from '/src/data/pilotsBetData.json'
+import PilotsData from '../data/pilotsBetData.json'
 
 export default function Pilots(){
 
