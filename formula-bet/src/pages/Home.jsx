@@ -1,4 +1,3 @@
-import Header from "../components/header/Header";
 import Redlink from "../components/header/RedLink";
 
 export default function Home(){

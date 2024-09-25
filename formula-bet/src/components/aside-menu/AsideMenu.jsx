@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem";
-import MenuLinkData from "../../data/menulinkData.json"
+import MenuLinkData from "../../data/menuLinkData.json"
 
 export default function AsideMenu({open}){
 
