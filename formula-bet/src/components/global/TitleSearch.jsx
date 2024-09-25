@@ -6,7 +6,7 @@ export default function TitleSearch({title}){
                 <div className="flex gap-x-3 items-center">
                     <input className="bg-light_gray rounded-xl h-8 w-48 md:w-72 text-white font[Konnect]" type="text" />
                     <div>
-                        <img src="/src/assets/images/pilots/Search.svg" alt="" />
+                        <img src="/pilots/Search.svg" alt="" />
                     </div>
                 </div>
             </div>

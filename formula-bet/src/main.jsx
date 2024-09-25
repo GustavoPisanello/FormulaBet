@@ -11,6 +11,7 @@ import SingleNews from './pages/SingleNews.jsx'
 import Authenticate from './Authenticate.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
+import Wallet from './pages/Wallet.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,8 @@ const router = createBrowserRouter([
       {path: "/Race", element: <Bet/>},
       {path: "/Pilots", element: <Pilots/>},
       {path: "/News", element: <News/>},
-      {path: "/News/:id", element: <SingleNews/>}
+      {path: "/News/:id", element: <SingleNews/>},
+      {path: "/Wallet", element: <Wallet/>}
     ]
   },
   {

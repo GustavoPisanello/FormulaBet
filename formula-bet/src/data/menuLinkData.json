@@ -16,5 +16,11 @@
         "tag": "Notícias",
         "img": "/asideMenu/Newspaper.png",
         "link": "/News"
+    },
+    {
+        "id": 4,
+        "tag": "Carteira",
+        "img": "/asideMenu/Wallet.png",
+        "link": "/Wallet"
     }
 ]

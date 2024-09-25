@@ -5,6 +5,7 @@ import {Outlet} from 'react-router-dom'
 import Footer from './components/footer/Footer'
 import { useState } from 'react'
 import HamburgerMenuButton from './components/hamburger-menu-button/HamburgerMenuButton'
+import { WalletProvider } from './components/context/WalletContext'
 
 function App() {
         
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+    <WalletProvider>
         <div className="flex flex-col w-screen h-screen">
             <Header>
               <HamburgerMenuButton toggleMenu={toggleMenu} isOpen={isOpen}/>
@@ -32,6 +34,7 @@ function App() {
               </div>
           </div>
           <Footer/>
+        </WalletProvider>
     </>
   )
 }
