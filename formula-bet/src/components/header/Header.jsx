@@ -10,7 +10,7 @@ export default function Header({children}){
                 <div className="flex w-full justify-between md:justify-start items-center gap-x-8">
                     {children}
                     <div className="w-44 xl:w-64">
-                        <Link to="/"><img className="w-full" src={logo} alt="Logo da FormulaBet" /></Link>
+                        <Link to="/"><img className="w-full" src="/public/header/Formulabet.svg" alt="Logo da FormulaBet" /></Link>
                     </div>
                 </div>
                 <div className="md:flex text-[#FFF] gap-x-4 xl:gap-x-16 hidden">
