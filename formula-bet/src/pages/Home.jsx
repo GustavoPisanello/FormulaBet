@@ -16,7 +16,7 @@ export default function Home(){
                             <p className="text-lg font-[Konnect]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi itaque eius perferendis unde minima accusamus sit amet enim sed aut nostrum mollitia officia ut, in, voluptas a, veritatis sequi molestias!</p>
                         </div>
                         <div>
-                            <Redlink text="Apostar"/>
+                            <Redlink text="Apostar" link="/Bet"/>
                         </div>
                     </div>
                 </div>
