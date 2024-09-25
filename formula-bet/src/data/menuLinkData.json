@@ -2,19 +2,19 @@
     {
         "id": 1,
         "tag": "Apostar",
-        "img": "/src/assets/images/asideMenu/RouletteChips.png",
+        "img": "RouletteChips.png",
         "link": "/Race"
     },
     {
         "id": 2,
         "tag": "Pilotos",
-        "img": "/src/assets/images/asideMenu/Pilot.png",
+        "img": "pilot.png",
         "link": "/Pilots"
     },
     {
         "id": 3,
         "tag": "Notícias",
-        "img": "/src/assets/images/asideMenu/Newspaper.png",
+        "img": "Newspaper.png",
         "link": "/News"
     }
 ]
