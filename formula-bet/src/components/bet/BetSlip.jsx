@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import BetItem from '/src/components/bet/BetItem';
-import Check from '/src/assets/images/bet/Check.svg';
-import Lixo from '/src/assets/images/bet/lata-de-lixo.svg';
+import Check from '/bet/Check.svg';
+import Lixo from '/bet/lata-de-lixo.svg';
 
 export default function BetSlip({ bets = [], removeBet }) {
     const openSlipButtonRef = useRef(null);
@@ -73,7 +73,7 @@ export default function BetSlip({ bets = [], removeBet }) {
             <div className="w-full fixed bottom-0 right-0 flex flex-col sm:w-80 z-10 text-white">
                 <button className="flex gap-4 justify-center w-full items-center py-3 bg-red_pink rounded-t-xl" ref={openSlipButtonRef}>
                     <div className="w-8">
-                        <img className="w-full" src="/src/assets/images/bet/boletim.png" alt="Boletim" />
+                        <img className="w-full" src="/bet/boletim.png" alt="Boletim" />
                     </div>
                     <p className="text-xl">Boletim</p>
                 </button>

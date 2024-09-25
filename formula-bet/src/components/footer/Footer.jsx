@@ -1,4 +1,4 @@
-import Logo from '/src/assets/images/header/FormulaBet.svg'
+import Logo from '/header/FormulaBet.svg'
 import {Link} from 'react-router-dom'
 import SocialMedia from './SocialMedia'
 
@@ -7,17 +7,17 @@ export default function Footer(){
     const socialMediaData = [
         {
             "text": "@FormulaBet",
-            "img": "/src/assets/images/footer/instagram.svg",
+            "img": "/footer/instagram.svg",
             "link": "https://instagram.com"
         },
         {
             "text": "@FormulaBet",
-            "img": "/src/assets/images/footer/x.svg",
+            "img": "/footer/x.svg",
             "link": "https://twitter.com"
         },
         {
             "text": "FormulaBet",
-            "img": "/src/assets/images/footer/youtube.svg",
+            "img": "/footer/youtube.svg",
             "link": "https://youtube.com"
         }
     ]

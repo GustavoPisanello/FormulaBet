@@ -1,6 +1,6 @@
 import {useParams} from 'react-router-dom'
 import {Link} from 'react-router-dom'
-import arrow from '/src/assets/images/news/Arrow.svg'
+import arrow from '/news/Arrow.svg'
 import data from '../data/newsData.json'
 
 export default function SingleNews(){

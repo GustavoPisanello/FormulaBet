@@ -7,7 +7,7 @@
         "points": "390",
         "participations": "69",
         "team": "Audi Sport ABT Schaeffler",
-        "img": "/src/assets/images/pilots/Abt_Daniel.jpg"
+        "img": "/pilots/Abt_Daniel.jpg"
     },
     {
         "pilotName": "Jaime Alguersuari",
@@ -17,7 +17,7 @@
         "points": "30",
         "participations": "9",
         "team": "Toro Rosso",
-        "img": "/src/assets/images/pilots/jaime.jpg"
+        "img": "/pilots/jaime.jpg"
     },
     {
         "pilotName": "Marco Andretti",
@@ -27,7 +27,7 @@
         "points": "0",
         "participations": "1",
         "team": "Andretti Formula E",
-        "img": "/src/assets/images/pilots/Marco-Andretti.jpg"
+        "img": "/pilots/Marco-Andretti.jpg"
     },
     {
         "pilotName": "Nathanaël Berthon",
@@ -37,7 +37,7 @@
         "points": "4",
         "participations": "3",
         "team": "Racing Engineering",
-        "img": "/src/assets/images/pilots/nathanael.jpg"
+        "img": "/pilots/nathanael.jpg"
     },
     {
         "pilotName": "Edoardo Mortara",
@@ -47,7 +47,7 @@
         "points": "122",
         "participations": "35",
         "team": "Mahindra",
-        "img": "/src/assets/images/pilots/edoardo.jpg"
+        "img": "/pilots/edoardo.jpg"
     },
     {
         "pilotName": "Sam Bird",
@@ -57,7 +57,7 @@
         "points": "628",
         "participations": "71",
         "team": "McLaren Formula E Team",
-        "img": "/src/assets/images/pilots/SamBird.avif"
+        "img": "/pilots/SamBird.avif"
     },
     {
         "pilotName": "Tom Blomqvist",
@@ -67,7 +67,7 @@
         "points": "4",
         "participations": "10",
         "team": "Andretti Formula E",
-        "img": "/src/assets/images/pilots/tom.jpeg"
+        "img": "/pilots/tom.jpeg"
     },
     {
         "pilotName": "Matthew Brabham",
@@ -77,7 +77,7 @@
         "points": "0",
         "participations": "2",
         "team": "PIRTEK Team Murray",
-        "img": "/src/assets/images/pilots/MatthewBrabham.jpg"
+        "img": "/pilots/MatthewBrabham.jpg"
     },
     {
         "pilotName": "Sébastien Buemi",
@@ -87,7 +87,7 @@
         "points": "783",
         "participations": "69",
         "team": "DAMS",
-        "img": "/src/assets/images/pilots/Sébastien_Buemi_Formula_E.jpg"
+        "img": "/pilots/Sébastien_Buemi_Formula_E.jpg"
     },
     {
         "pilotName": "James Calado",
@@ -97,7 +97,7 @@
         "points": "10",
         "participations": "9",
         "team": "Panasonic Jaguar Racing",
-        "img": "/src/assets/images/pilots/James-Calado.jpg"
+        "img": "/pilots/James-Calado.jpg"
     },
     {
         "pilotName": "Adam Carroll",
@@ -107,7 +107,7 @@
         "points": "5",
         "participations": "12",
         "team": "A1 Team Irlanda",
-        "img": "/src/assets/images/pilots/carrolladam.jpg"
+        "img": "/pilots/carrolladam.jpg"
     },
     {
         "pilotName": "Nick Cassidy",
@@ -117,6 +117,6 @@
         "points": "0",
         "participations": "2",
         "team": "Panasonic Jaguar Racing",
-        "img": "/src/assets/images/pilots/nick_cassidy.jpg"
+        "img": "/pilots/nick_cassidy.jpg"
     }
 ]

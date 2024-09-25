@@ -1,4 +1,4 @@
-import logo from '/src/assets/images/header/FormulaBet.svg'
+import logo from '/header/FormulaBet.svg'
 import Redlink from './RedLink'
 import {Link} from 'react-router-dom'
 

@@ -1,4 +1,4 @@
-import X from '/src/assets/images/bet/Xis.svg';
+import X from '/bet/Xis.svg';
 
 export default function BetItem({ pilotName, odd, race, amount, onAmountChange, removeBet }) {
   return (
