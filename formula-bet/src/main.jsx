@@ -12,6 +12,7 @@ import Authenticate from './Authenticate.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Wallet from './pages/Wallet.jsx'
+import PageNotFound from './pages/PageNotFound.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,16 +24,20 @@ const router = createBrowserRouter([
       {path: "/Pilots", element: <Pilots/>},
       {path: "/News", element: <News/>},
       {path: "/News/:id", element: <SingleNews/>},
-      {path: "/Wallet", element: <Wallet/>}
+      {path: "/Wallet", element: <Wallet/>},
     ]
   },
   {
     element: <Authenticate />,
-    path: "/authenticate",
+    path: "",
     children: [
       {path: "/authenticate/Login", element: <Login />},
-      {path: "/authenticate/Register", element: <Register/>}
+      {path: "/authenticate/Register", element: <Register/>},
     ]
+  },
+  {
+    element: <PageNotFound/>,
+    path: "*"
   }
 ])
 
