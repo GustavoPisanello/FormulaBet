@@ -1,5 +1,5 @@
 Site da 3ª Sprint do Challenge Mahindra - Formula E
-- Projeto FormulaBet - <br>
+- Projeto FormulaBet <br>
 
 Integrantes do grupo:
 
